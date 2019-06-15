@@ -4,26 +4,26 @@ body {
 }
 
 header {
-	background-color: #00368B;
+	background-color: #36BBBB;
 	padding: 25px;
 	text-align: center;
 	font-size: 30px;
-	color: #BBBBBB;
+	color: #FFFFFF;
 }
 
 header p {
 	font-size: 16px;
-	color: #DDDDDD;
+	color: #FFFFFF;
 }
 
 nav {
 	box-sizing: border-box;
 	float: left;
 	width: 15%;
-	min-width: 150px;
+	min-width: 175px;
 	max-width: 275px;
 	height: 100%;
-	background-color: #CCDFFF;
+	background-color: #CCEAEE;
 	padding: 20px;
 }
 
@@ -52,6 +52,7 @@ article {
 	float: left;
 	padding: 20px;
 	width: 70%;
+	min-width: none;
 	background-color: #FFFFFF;
 }
 
@@ -70,16 +71,11 @@ article ul {
 	list-style: outside none;
 	margin-left: 0;
 	padding-left: 20px;
-	text-indent: -40px;
 }
 
 article li {
 	padding-left: 20px;
 	padding-bottom: 8px;
-}
-
-ul {
-	list-style: none;
 }
 
 p.italic {
